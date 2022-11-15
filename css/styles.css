@@ -6,7 +6,7 @@ font-family: 'Roboto', sans-serif;
 /* Enbezado */  
 .header-container{
 margin-left:215px;
-max-width: 1166px;
+
 display:flex;
 justify-content: space-between;
 align-items: center;
@@ -36,6 +36,8 @@ justify-content: space-between;
 list-style: none;
 display:flex; 
 gap:50px;
+margin-right: 100px;
+margin-left: 100px;
 }
 
 .link-nav .nav-1:hover,
@@ -76,7 +78,7 @@ color: #2196F3;
 /* titulo principal , Boton principal y portafolio   */
 .section-1{
     
-width: 1600px;
+width: 100%;
 height: 600px;
 left: -4px;
 top: 80px;
@@ -290,7 +292,7 @@ color: rgba(255, 255, 255, 0.6);
 }
 footer{
 background: #2F303A;
-width: 1600px;
+width: 100%;
 height: 252px;
 left: 0px;
 top: 2158px;
